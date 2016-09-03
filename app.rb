@@ -1,4 +1,5 @@
 class App < Sinatra::Base
+  require 'rubygems'
   get "/" do
     @images= Image.all
     haml :index

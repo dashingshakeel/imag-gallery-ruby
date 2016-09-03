@@ -9,3 +9,4 @@ source "http://rubygems.org"
  gem 'pry-byebug'
  gem "time_ago_in_words"
  gem "rmagick"
+ gem "haml"
